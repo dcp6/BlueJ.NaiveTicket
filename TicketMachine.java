@@ -24,7 +24,7 @@ public class TicketMachine
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
-     */
+     constructor*/
     public TicketMachine(Integer ticketCost)
     {
         price = ticketCost;
@@ -96,3 +96,35 @@ public class TicketMachine
         return "Ticket price: " + price + " cents. " + "Your total is " + total + ".";
     }
 }
+//2.6 
+//public class Student
+//public class LabClass
+
+//2.7
+//Computers are not people and cannot figure out if you write things backwards - they mean different things. You must do public class Ticketmachine.
+//In the diagram there are red x's across the changed object.
+//2.8
+//The error says identifier expected. It does not tell me that the syntax is backwards but it does help.
+//2.9
+//Fields: price, total, balance, ticketnumber. class: ticketmachine. constructor: ticketmachine.
+//2.10
+//The constructor assigns values to various fields.
+//2.11
+//a. integer.
+//b. abstract.
+//c. a string, to store a url.
+//2.12
+//alive, tutor, game.
+//2.13
+//Yes, it matters. Programming languages require very specific syntax.
+//2.14
+//Yes
+//2.15
+//Private Integer status
+//2.16
+//Student, as the constructor must have the same name as the class.
+//2.17
+//2, string and double.
+//2.18
+//String which is a series of characters, double which is a number.
+//There are two fields, title and price.
